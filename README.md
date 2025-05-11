@@ -28,34 +28,34 @@ flutter pub run build_runner build --delete-conflicting-outputs
 flutter devices
 ```
 
-    Inicie o aplicativo:
-    ```bash
-    flutter run -d <deviceId>
-    ```
-    Ou rode:
-    ```bash
-    flutter run
-    ```
+Inicie o aplicativo:
+```bash
+flutter run -d <deviceId>
+```
+Ou rode:
+```bash
+flutter run
+```
 
 - Para gerar APK de Release - Android:
 ```bash
 flutter build apk --release
 ```
 
-    Para instalar no dispositivo:
-    ```bash
-    adb install -r build/app/outputs/flutter-apk/app-release.apk
-    ```
+Para instalar no dispositivo:
+```bash
+adb install -r build/app/outputs/flutter-apk/app-release.apk
+```
 
 - Executar testes automatizados:
 ```bash
 flutter test
 ```
 
-    Para validar a API ViaCEP:
-    ```bash
-    dart run tools/test_viacep.dart
-    ```
+Para validar a API ViaCEP:
+```bash
+dart run tools/test_viacep.dart
+```
 
 
 
