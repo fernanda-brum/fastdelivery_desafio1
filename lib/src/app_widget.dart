@@ -24,6 +24,14 @@ class AppWidget extends StatelessWidget {
           bodyMedium: TextStyle(color: Colors.white),
         ),
       ),
+
+      initialRoute: AppRoutes.splash,
+
+      routes: {
+        AppRoutes.splash: (context) => const SplashPage(),
+        AppRoutes.home:   (context) => const HomePage(),
+        AppRoutes.history:(context) => HistoryPage(),
+      },
     );
   }
 }
